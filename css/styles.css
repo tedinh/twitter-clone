@@ -132,7 +132,11 @@ body {
 		}
 			#tweet-controls div {
 				display: inline-block;
+				visibility: hidden;
 			}
+		#tweet-submit {
+			visibility: hidden;
+		}
 			#char-count {
 				font-size: 14px;
 				color: #999;
@@ -258,5 +262,3 @@ body {
 				top: 0;
 				left: 0;
 			}
-
-
